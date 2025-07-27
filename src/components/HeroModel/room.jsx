@@ -6,13 +6,13 @@ import { BlendFunction } from "postprocessing";
 import * as THREE from "three";
 
 // Optional: Preload for smoother transitions
-useGLTF.preload("/My_Portfolio/models/optimized-room.glb");
+useGLTF.preload("/models/optimized-room.glb");
 
 export function Room(props) {
   const [ready, setReady] = useState(false); // ✅ Wait for model to load
 
   const { nodes, materials } = useGLTF(
-    "/My_Portfolio/models/optimized-room.glb",
+    "/models/optimized-room.glb",
     true,
     (loader) => {
       loader.manager.onLoad = () => {
@@ -22,7 +22,7 @@ export function Room(props) {
   );
 
   const screensRef = useRef();
-  const matcapTexture = useTexture("/My_Portfolio/images/textures/mat1.png");
+  const matcapTexture = useTexture("/images/textures/mat1.png");
 
   const curtainMaterial = new THREE.MeshPhongMaterial({ color: "#d90429" });
   const bodyMaterial = new THREE.MeshPhongMaterial({ map: matcapTexture });
