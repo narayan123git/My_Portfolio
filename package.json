@@ -1,5 +1,5 @@
 {
-  "homepage": "https://narayan123git.github.io/My_Portfolio"
+  "homepage": "https://narayan123git.github.io/My_Portfolio",
   "name": "portfolio_01",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,7 @@
   "preview": "vite preview",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
-},
+ },
   "dependencies": {
     "@react-three/drei": "^10.5.1",
     "@react-three/fiber": "^9.2.0",
