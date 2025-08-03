@@ -31,11 +31,12 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 3, suffix: "", label: "Years in B.Tech (CSE @ NIT Durgapur)" },
+  { value: 5, suffix: "+", label: "Live Projects on GitHub" },
+  { value: 200, suffix: "+", label: "DSA & Leetcode Problems Solved" },
+  { value: 3, suffix: "+", label: "Hackathons Participated" },
 ];
+
 
 const logoIconsList = Array.from({ length: 11 }, (_, i) => ({
   imgPath: `${base}images/logos/company-logo-${i + 1}.png`,
@@ -43,21 +44,22 @@ const logoIconsList = Array.from({ length: 11 }, (_, i) => ({
 
 const abilities = [
   {
-    imgPath: `${base}images/seo.png`,
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: `${base}images/code.png`,
+    title: "Full-Stack Development",
+    desc: "Building end-to-end web applications with modern technologies like MERN, TailwindCSS, and GSAP.",
   },
   {
-    imgPath: `${base}images/chat.png`,
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: `${base}images/team.png`,
+    title: "Team Collaboration",
+    desc: "Active participation in hackathons and group projects, thriving in fast-paced, team-based environments.",
   },
   {
-    imgPath: `${base}images/time.png`,
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: `${base}images/learning.png`,
+    title: "Fast Learning & Adaptability",
+    desc: "Quickly picking up new frameworks, APIs, and problem-solving approaches with a growth mindset.",
   },
 ];
+
 
 const techStackImgs = [
   {
@@ -73,11 +75,11 @@ const techStackImgs = [
     imgPath: `${base}images/logos/node.png`,
   },
   {
-    name: "Interactive Developer",
+    name: "AI/ML Developer",
     imgPath: `${base}images/logos/three.png`,
   },
   {
-    name: "Project Manager",
+    name: "C/C++ Developer",
     imgPath: `${base}images/logos/git.svg`,
   },
 ];
@@ -102,14 +104,14 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "AI/ML Developer",
     modelPath: `${base}models/three.js-transformed.glb`,
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
-    modelPath: `${base}models/git-svg-transformed.glb`,
+    name: "C/C++ Developer",
+    modelPath: `${base}models/c.glb`,
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
@@ -118,44 +120,48 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "I built a full-stack ride-sharing platform (VeloRide) inspired by Uber, integrating real-time features and a smooth user experience.",
     imgPath: `${base}images/exp1.png`,
     logoPath: `${base}images/logo1.png`,
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Full Stack Developer – VeloRide",
+    date: "Feb 2024 – Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed a MERN-based ride-sharing app with location tracking and trip scheduling.",
+      "Integrated OpenRouteService API for real-time routing and Leaflet for map visualizations.",
+      "Implemented secure authentication and animated UI using GSAP + TailwindCSS.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "I’m working on an Anemia Detection project using deep learning with my college professor and a teammate. It’s an academic–industrial collaboration exploring healthcare solutions.",
     imgPath: `${base}images/exp2.png`,
     logoPath: `${base}images/logo2.png`,
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "ML Research Project – Anemia Detection",
+    date: "June 2024 – Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Designed and trained deep learning models to predict Hemoglobin levels from eye images.",
+      "Collaborated on data preprocessing, model evaluation, and result visualization using Python and PyTorch.",
+      "Maintained GitHub repository for code versioning, results tracking, and documentation.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "I am currently pursuing my B.Tech in Computer Science and Engineering from NIT Durgapur, building a strong foundation in both theory and applied computer science.",
     imgPath: `${base}images/exp3.png`,
     logoPath: `${base}images/logo3.png`,
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "B.Tech CSE Student – NIT Durgapur",
+    date: "2021 – Present",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Completed academic courses in DSA, DBMS, OS, CN, and Computer Architecture.",
+      "Solved 100+ DSA problems on LeetCode and GeeksforGeeks.",
+      "Consistently contributing to team and solo projects beyond coursework.",
     ],
   },
 ];
+
+
+
+
 
 const expLogos = [
   {
