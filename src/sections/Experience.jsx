@@ -70,9 +70,9 @@ const Experience = () => {
                             <div key={index} className="exp-card-wrapper">
                                 <div className='xl:w-2/6'>
                                     <GlowCard card={card} index={index}>
-                                        <div>
+                                        {/* <div>
                                             <img src={card.imgPath} alt={card.title} />
-                                        </div>
+                                        </div> */}
                                     </GlowCard>
                                 </div>
                                 <div className='xl:w-4/6'>
