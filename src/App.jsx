@@ -6,6 +6,8 @@ import AppShowcase from './sections/ShowCaseSection'
 import FeatureCards from './sections/FeatureCards'
 import Experience from './sections/Experience'
 import TechStack from './sections/TechStack'
+import Contact from './sections/Contact'
+import Social from './sections/Social'
 
 const App = () => {
   return (
@@ -13,10 +15,12 @@ const App = () => {
       <NavBar/>
       <Hero/>
       <AppShowcase/>
-      <LogoSection/>
+      {/* <LogoSection/> */}
       <FeatureCards/>
       <Experience/>
       <TechStack/>
+      <Social/>
+      <Contact/>
     </>
   )
 }

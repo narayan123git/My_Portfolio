@@ -1,6 +1,6 @@
 import React from 'react'
 import { words } from '../constants'
-import HeroExp from '../components/HeroModel/HeroExp'
+import HeroExp from '../components/models/HeroModel/HeroExp'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import AnimatedCounter from '../components/AnimatedCounter'

@@ -219,7 +219,7 @@ section {
     @apply px-4 py-4 rounded-lg bg-black-200 flex justify-center items-center relative cursor-pointer overflow-hidden;
 
     /* Add left margin */
-    @apply ml-5 md:ml-20;
+    @apply ml-5 mr-5 md:mx-auto; 
 
     /* Add some beautiful effects */
     @apply shadow-lg transition-all duration-300;
@@ -496,4 +496,8 @@ section {
 
 .card:hover::before {
   opacity: 1;
+}
+
+.socials {
+  @apply flex items-center justify-center gap-5;
 }
