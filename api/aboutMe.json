@@ -1,0 +1,209 @@
+{
+  "name": "Narayan Paul",
+  "titles": [
+    "Aspiring Software Engineer",
+    "Full‑Stack Web Developer",
+    "ML Enthusiast"
+  ],
+  "bio": "Aspiring software engineer and B.Tech CSE student at NIT Durgapur (CGPA 9.4), with a strong foundation in full‑stack web development and machine learning. Passionate about building scalable products and solving real‑world problems.",
+  "location": {
+    "city": "Rampur, Cooch Behar",
+    "state": "West Bengal",
+    "country": "India",
+    "postal_code": "736207"
+  },
+  "contact": {
+    "emails": [
+      "sonaipaul20@gmail.com",
+      "narayanpauliit20@gmail.com"
+    ],
+    "phones": [
+      "+91-8513826233",
+      "+91-7602727230"
+    ],
+    "profiles": {
+      "portfolio": "https://narayanpaulportfolio.netlify.app/",
+      "github": "https://github.com/narayan123git",
+      "linkedin": "https://www.linkedin.com/in/narayan-paul-ba2339253"
+    }
+  },
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "National Institute of Technology, Durgapur",
+      "start_year": 2023,
+      "end_year": 2027,
+      "cgpa": 9.4
+    },
+    {
+      "level": "Class XII (WBCHSE)",
+      "year": 2022,
+      "score_percent": 93.8
+    },
+    {
+      "level": "Class X (WBBSE)",
+      "year": 2020,
+      "score_percent": 96.5
+    }
+  ],
+  "skills": {
+    "languages": [
+      "C",
+      "C++",
+      "Python",
+      "JavaScript",
+      "MIPS Assembly",
+      "Verilog",
+      "Shell (bash)"
+    ],
+    "web": [
+      "HTML",
+      "CSS",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind",
+      "GSAP",
+      "Socket.IO"
+    ],
+    "ml_frameworks": [
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "OpenCV"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "Google Colab",
+      "VSCode",
+      "Linux"
+    ],
+    "cs_concepts": [
+      "Data Structures",
+      "Algorithms",
+      "Operating Systems",
+      "DBMS",
+      "COA",
+      "Discrete Mathematics",
+      "Theory of Computation",
+      "Linear Algebra",
+      "Calculus",
+      "Complex Numbers"
+    ]
+  },
+  "projects": [
+    {
+      "name": "VeloRide – Uber‑inspired Ride Booking Web App",
+      "description": "Full‑stack MERN ride booking app with authentication, driver‑rider matching and real‑time communication.",
+      "tech": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Socket.IO",
+        "JWT"
+      ],
+      "links": {
+        "github": "https://github.com/narayan123git/VeloRide",
+        "demo": "https://veloride-git-main-narayan-pauls-projects.vercel.app"
+      }
+    },
+    {
+      "name": "Anemia Detection from Hand Video",
+      "description": "Deep learning pipeline to estimate hemoglobin (Hb) from palm video using histogram correlation and ViT+LSTM.",
+      "tech": [
+        "OpenCV",
+        "SciPy",
+        "PyTorch",
+        "ViT",
+        "LSTM",
+        "CNN"
+      ],
+      "links": {
+        "github": "https://github.com/narayan123git/anemia-detection-hand"
+      }
+    },
+    {
+      "name": "Cat vs Dog Image Classification",
+      "description": "CNN model trained on Kaggle Dogs vs Cats with augmentation and dropout.",
+      "tech": [
+        "TensorFlow",
+        "Keras",
+        "CNN"
+      ],
+      "links": {
+        "colab": "https://colab.research.google.com/drive/1HoyZXEPaijtZRXrlAgbHPtHBYQxDYA-A?usp=sharing"
+      }
+    },
+    {
+      "name": "Weather Forecast Web App",
+      "description": "Weather app using OpenWeather API with a clean, responsive UI.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "links": {
+        "github": "https://github.com/narayan123git/weather-app"
+      }
+    },
+    {
+      "name": "Quine‑McCluskey Boolean Minimization",
+      "description": "Python implementation with prime implicant chart and logic simplification.",
+      "tech": [
+        "Python"
+      ],
+      "links": {
+        "github": "https://github.com/narayan123git/Quine-McCluskey-Programme-Python-"
+      }
+    },
+    {
+      "name": "Vehicle Handling System (SQL)",
+      "description": "Structured database to manage vehicle records, service history, and compliance data.",
+      "tech": [
+        "SQL",
+        "MySQL"
+      ]
+    }
+  ],
+  "achievements": [
+    "Selected for Amazon Machine Learning (ML) Summer School 2025",
+    "98.06 percentile in JEE Mains 2023 among ~1.1M candidates",
+    "WBJEE 2023 rank: 2356 among 100k+ students",
+    "Ranked among top 20 in West Bengal in Class 10; 1st in block‑level",
+    "9th rank in Vigyan Abhiksha 2019 (district‑level science exam)"
+  ],
+  "certifications": [
+    {
+      "name": "AI For All (Govt. of India) – AI Appreciate badge",
+      "link": "https://ai-for-all.in/#/badge?id=U2FsdGVkX1p1L2u3SxWss4FHJvM6DaO3IdsTZK9ZCnnwhRe1Wvni1Sc31vvcwhOnZXsAzo"
+    },
+    {
+      "name": "IBM SkillsBuild – Getting Started with AI"
+    },
+    {
+      "name": "IBM SkillsBuild – Journey to Cloud"
+    }
+  ],
+  "interests": [
+    "Chess",
+    "Drawing",
+    "Visual storytelling"
+  ],
+  "availability": {
+    "open_to": [
+      "Internships",
+      "Full‑time SWE roles",
+      "Collaborations"
+    ],
+    "relocation": true
+  },
+  "last_updated": "2025-08-25"
+}
