@@ -55,11 +55,13 @@ const Contact = () => {
         body: JSON.stringify({ email, action: "send", recaptchaToken: recaptchaValue }),
       });
 
-      const data = await safeJson(res);
-      if (!res.ok) throw new Error(data.error || "Failed to send OTP");
+      // Inside sendOtp try block...
+const data = await safeJson(res);
+if (!res.ok) throw new Error(data.error || "Failed to send OTP");
 
-      setOtpSent(true);
-      alert("✅ OTP sent to your email! It will expire in 5 minutes.");
+setOtpSent(true);
+recaptchaRef.current.reset(); // <--- Add this! Forces a fresh token for the final submit.
+alert("✅ OTP sent to your email!");
     } catch (err) {
       console.error("Failed to send OTP:", err);
       alert(err.message || "Failed to send OTP. Please try again later.");
