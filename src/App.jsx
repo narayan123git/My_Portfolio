@@ -7,21 +7,16 @@ import AppShowcase from './sections/ShowCaseSection'
 import FeatureCards from './sections/FeatureCards'
 import Experience from './sections/Experience'
 import TechStack from './sections/TechStack'
-import Contact from './sections/Contact'
 import Social from './sections/Social'
 import Projects from './sections/Projects'
 import Education from './sections/Education';
 import Skill from './sections/Skill'
 import Footer from './sections/Footer'
-import Chatbot from "./sections/Chatbot";
 
 const App = () => {
   return (
     <>
       <NavBar />
-      <section id="chatbot-section">
-        <Chatbot />
-      </section>
       <Routes>
         {/* Home Route */}
         <Route
@@ -51,10 +46,6 @@ const App = () => {
 
               <section id="socialmedia">
                 <Social />
-              </section>
-
-              <section id="contact">
-                <Contact />
               </section>
             </>
           }

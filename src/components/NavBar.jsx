@@ -41,13 +41,17 @@ const NavBar = () => {
         </nav>
 
         {/* Contact btn */}
-        <HashLink smooth to="/#contact" className="contact-btn group" aria-label="Contact">
+        <a
+          href="mailto:sonaipaul27369@gmail.com"
+          className="contact-btn group"
+          aria-label="Contact"
+        >
           <div className="inner">
             <span>Contact Me</span>
           </div>
-        </HashLink>
+        </a>
 
-  {/* Chatbot is rendered at the app root for consistent visibility */}
+        {/* Chatbot is rendered at the app root for consistent visibility */}
       </div>
     </header>
   )
